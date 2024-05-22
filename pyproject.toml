@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_netdist"
+description = "Run ComfyUI workflows on multiple local GPUs/networked machines. Nodes: Remote images, Local Remote control"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["requests>=2.28.2"]
+
+[project.urls]
+Repository = "https://github.com/city96/ComfyUI_NetDist"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_NetDist"
+Icon = ""
